@@ -16,7 +16,6 @@ namespace AppForTestingJenkisCICD.Controllers
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
             _logger = logger;
-            pssssst
         }
 
         [HttpGet(Name = "GetWeatherForecast")]
